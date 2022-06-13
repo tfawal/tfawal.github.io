@@ -12,7 +12,7 @@ P {
 }
 
 H6, H5, H4, H3, H2, H1 {
-    background-image: url(images/cool.PNG);
+    background-image: url(images/cool.jpg);
     background-size: 100% 100%;
     border-color: #002000;
     border-width: 4px;
@@ -74,7 +74,7 @@ IMG {
 }
 
 #navbar {
-    background-image: url(images/cool.PNG);
+    background-image: url(images/cool.jpg);
     background-size: 100% 100%;
     margin: 55px 160px 5px 160px;
     height: 55px;
