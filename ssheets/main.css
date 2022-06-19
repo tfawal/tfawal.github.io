@@ -114,3 +114,10 @@ IMG {
 #main {
     margin-top: 125px;
 }
+
+#update {
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}

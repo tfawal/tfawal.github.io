@@ -3,7 +3,7 @@
 TODO
 ----
 
-1) Adding highlighting of images when mouse is over them.
+1) Add functionality for fading in the images.
 2) Add automatic resizing of elements when window is resized.
 
 */
@@ -19,7 +19,7 @@ var rp = document.getElementById('redpill');
 var rp2 = document.getElementById('redpill2');
 
 var redLink = "main.htm";
-var blueLink = "https://en.wikipedia.org/wiki/The_Truman_Show";
+var blueLink = "https://www.google.com";
 var redText = "Stay in Wonderland";
 var blueText = "The story ends...";
 var inLinkRed = false;
@@ -70,7 +70,6 @@ const draw = () => {
 setInterval(draw, 50);
 setTimeout(fadePills, 3000);
 
-//need to add functionality for fading in the images
 function fadePills() {
 	ctx.drawImage(rp, pxr, py, pw, ph);
 	ctx.drawImage(bp, pxb, py, pw, ph);
