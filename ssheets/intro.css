@@ -1,0 +1,25 @@
+HTML {
+    background: black;
+    height: 100%;
+    overflow: hidden;
+}
+
+BODY {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+CANVAS{
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+}
+
+IMG {
+    visibility: hidden;
+}
