@@ -86,6 +86,10 @@ IMG {
     top: 0;
 }
 
+#navbar A:hover {
+    color:magenta
+}
+
 #navbar UL {
     padding: 5px;
     list-style-type: none;

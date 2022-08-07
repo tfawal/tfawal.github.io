@@ -86,6 +86,10 @@ IMG {
     top: 0;
 }
 
+#navbar A:hover {
+    color:magenta
+}
+
 #navbar UL {
     padding: 5px;
     list-style-type: none;
@@ -112,16 +116,22 @@ IMG {
 }
 
 #main {
-    margin-top: 125px;
+    margin-top: 100px;
+}
+
+#cedars {
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 1em;
+}
+
+#about {
+    text-align: center;
 }
 
 #update {
     color: #FFFFFF;
     font-style: italic;
     font-weight: bold;
-    text-align: center;
-}
-
-#about {
     text-align: center;
 }
