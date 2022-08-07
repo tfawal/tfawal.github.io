@@ -1,0 +1,128 @@
+﻿HTML, BODY {
+    font-family: courier;
+    font-size: 18px;
+    background-color: #000000;
+    color: #33FF00;
+    margin: 32px;
+}
+
+P {
+    font-size: 1.05em;
+    line-height: 1.35em;
+}
+
+H6, H5, H4, H3, H2, H1 {
+    background-image: url(../images/cool.jpg);
+    background-size: 100% 100%;
+    border-color: #002000;
+    border-width: 4px;
+    border-style: ridge;
+    text-align: center;
+    text-shadow: 1px 1px 1px #00A493;
+    color: #33FF00;
+}
+
+H6 {
+    font-size: 1.15em;
+}
+
+H5 {
+    font-size: 1.25em;
+}
+
+H4 {
+    font-size: 1.375em;
+}
+
+H3 {
+    font-size: 1.5em;
+}
+
+H2 {
+    font-size: 1.75em;
+}
+
+H1 {
+    font-size: 2.00em;
+}
+
+IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #002000;
+    border-width: 4px;
+    border-style: ridge;
+}
+
+#header {
+    background-image: url(../images/cool.jpg);
+    background-size: 100% 100%;
+    margin: 5px 80px 0px 80px;
+    height: 35px;
+    border-color: #002000;
+    border-width: 4px;
+    border-style: ridge;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #00A493;
+    font-size: 1.75em;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 82%;
+}
+
+#navbar {
+    background-image: url(../images/cool.jpg);
+    background-size: 100% 100%;
+    margin: 55px 160px 5px 160px;
+    height: 55px;
+    border-color: #002000;
+    border-width: 4px;
+    border-style: ridge;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+}
+
+#navbar UL {
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#navbar UL LI {
+    display: inline;
+}
+
+#navbar UL LI A {
+    text-decoration: none;
+    font-family: courier;
+    font-size: 1.25em;
+    padding: .1em 2em;
+    color: #33FF00;
+    background-color: #001000;
+    border-color: #002000;
+    border-width: 4px;
+    border-style: ridge;
+    border-radius: 10px;
+}
+
+#main {
+    margin-top: 125px;
+    text-align: center;
+}
+
+#update {
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
