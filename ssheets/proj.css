@@ -160,3 +160,13 @@ IMG {
     display: block;
     margin: 100px 100px 0px 250px;
 }
+
+#cover {
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 1em;
+}
+
+#cover_img {
+    width: 20vw
+}
