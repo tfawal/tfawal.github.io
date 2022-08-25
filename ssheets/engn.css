@@ -6,6 +6,10 @@
     margin: 32px;
 }
 
+A {
+    color: #00EEFF;
+}
+
 P {
     font-size: 1.05em;
     line-height: 1.35em;
@@ -107,7 +111,7 @@ IMG {
     font-family: courier;
     font-size: 1.25em;
     padding: .1em 2em;
-    color: #33FF00;
+    color: #D4EFFF;
     background-color: #001000;
     border-color: #002000;
     border-width: 4px;
