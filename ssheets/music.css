@@ -62,7 +62,10 @@ IMG {
 #header {
     background-image: url(../images/cool.jpg);
     background-size: 100% 100%;
-    margin: 5px 80px 0px 80px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 7.5%;
+    width: 75%;
     height: 35px;
     border-color: #002000;
     border-width: 4px;
@@ -74,14 +77,16 @@ IMG {
     font-weight: bold;
     position: fixed;
     top: 0;
-    width: 82%;
 }
 
 #navbar {
     background-image: url(../images/cool.jpg);
     background-size: 100% 100%;
-    margin: 55px 160px 5px 160px;
+    margin-top: 55px;
+    margin-bottom: 5px;
+    margin-left: 17.5%;
     height: 55px;
+    width: 55%;
     border-color: #002000;
     border-width: 4px;
     border-style: ridge;
