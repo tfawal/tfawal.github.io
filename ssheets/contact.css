@@ -80,8 +80,11 @@ IMG {
 #navbar {
     background-image: url(../images/cool.jpg);
     background-size: 100% 100%;
-    margin: 55px 160px 5px 160px;
+    margin-top: 55px;
+    margin-bottom: 5px;
+    margin-left: 12.5%;
     height: 55px;
+    width: 65%;
     border-color: #002000;
     border-width: 4px;
     border-style: ridge;
@@ -95,7 +98,7 @@ IMG {
 }
 
 #navbar UL {
-    padding: 5px;
+    padding: 4px;
     list-style-type: none;
     text-align: center;
     margin: 10px;
@@ -110,7 +113,7 @@ IMG {
     text-decoration: none;
     font-family: courier;
     font-size: 1.25em;
-    padding: .1em 2em;
+    padding: .1em 1em;
     color: #D4EFFF;
     background-color: #001000;
     border-color: #002000;
