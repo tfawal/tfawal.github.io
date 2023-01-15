@@ -10,6 +10,14 @@ A {
     color: #00EEFF;
 }
 
+FIGURE {
+    text-align: center;
+    font-style: italic;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+
 P {
     font-size: 1.05em;
     line-height: 1.35em;
@@ -51,12 +59,12 @@ H1 {
 }
 
 IMG {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-color: #002000;
     border-width: 4px;
     border-style: ridge;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #header {
@@ -65,7 +73,6 @@ IMG {
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 7.5%;
-    width: 75%;
     height: 35px;
     border-color: #002000;
     border-width: 4px;
@@ -77,8 +84,14 @@ IMG {
     font-weight: bold;
     position: fixed;
     top: 0;
+    width: 75%;
 }
 
+#line_break {
+    flex-basis: 100%;
+    height: 0;
+  }
+  
 #navbar {
     background-image: url(../images/cool.jpg);
     background-size: 100% 100%;
@@ -124,35 +137,38 @@ IMG {
     border-radius: 10px;
 }
 
-#sidebar {
+#projects {
     background-color: #00000f;
     background-size: 100% 100%;
     border-color: #002000;
     border-width: 4px;
     border-style: ridge;
     border-radius: 10px;
-    position: fixed;
-    top: 50;
-    left: 0;
-    margin-left: 0.25em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 8em;
+    margin-right: 8em;
+    padding: 4px;
+    width: auto;
 }
 
-#sidebar A:hover {
+#projects A:hover {
     color:#006eff;
 }
 
-#sidebar UL {
+#projects UL {
     list-style-type: none;
     text-align: center;
     margin: 10px 5px 10px -35px;
     border-radius: 10px;
 }
 
-#sidebar UL LI {
+#projects UL LI {
     display: inline;
 }
 
-#sidebar UL LI A {
+#projects UL LI A {
     text-decoration: none;
     font-family: courier;
     font-size: 1.25em;
@@ -167,13 +183,14 @@ IMG {
 
 #main {
     display: block;
-    margin: 100px 100px 0px 250px;
+    margin: 100px 250px 15px 250px;
+    text-align: center;
 }
 
 #cover {
-    text-align: center;
     padding-top: 0.25em;
     padding-bottom: 1em;
+    text-align: center;
 }
 
 #cover_img {
